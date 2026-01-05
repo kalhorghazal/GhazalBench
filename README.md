@@ -1,6 +1,6 @@
 # GhazalBench
 
-This repository hosts **GhazalBench**, a dataset designed to evaluate LLM interaction with Persian ghazals of Hafez through usage-grounded diagnostic scenarios. The benchmark is introduced in the following paper:
+This repository hosts **GhazalBench**, a benchmark designed to evaluate LLM interaction with Persian ghazals of Hafez through usage-grounded diagnostic scenarios. The benchmark is introduced in the following paper:
 
 **Title:** "GhazalBench: Usage-Grounded Evaluation of LLMs on Persian Ghazals"
 

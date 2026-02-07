@@ -77,8 +77,8 @@ def allowedEditsByLength(text):
 
 
 def recallLabel(pred, gold, partial_cer_threshold=0.2):
-    p = normalize_persian(pred)
-    g = normalize_persian(gold)
+    p = normalizePersian(pred)
+    g = normalizePersian(gold)
 
     ed = editdistance.eval(p, g)
     cer_val = ed / max(1, len(g))
